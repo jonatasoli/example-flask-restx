@@ -7,8 +7,7 @@ from logging.handlers import RotatingFileHandler
 from flask import Flask
 
 import config as default_config
-from app.factories import logger_factory, blueprints_factory
-from ext import migrate
+from ext import migrate, blueprints_factory, logger_factory
 from ext.db import db
 from ext.marshmallow import ma
 from ext.moment import moment

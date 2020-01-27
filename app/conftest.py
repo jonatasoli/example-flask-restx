@@ -2,7 +2,7 @@ import pytest
 from flask import Flask
 
 import config_testing
-from app.factories.app_factory import create_app
+from ext.app_factory import create_app
 from ext.db import db
 
 
