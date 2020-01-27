@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - '5000:5000'
+    volumes:
+      - ./:/src:Z
+    command: ['bash', '-c', 'flask run -h 0.0.0.0 -p 5000']

@@ -1,0 +1,31 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+jedi = "*"
+ipdb = "*"
+neovim = "*"
+flake8 = "*"
+ipython = "*"
+
+[packages]
+psycopg2-binary = "*"
+gunicorn = "*"
+flask-restx = "*"
+python-dotenv = "*"
+flask-sqlalchemy = "*"
+python-decouple = "*"
+flask-moment = "*"
+redis = "*"
+pytest = "*"
+requests = "*"
+flask-pytest = "*"
+marshmallow-sqlalchemy = "*"
+flask-marshmallow = "*"
+flask-migrate = "*"
+flask-redis = "*"
+
+[requires]
+python_version = "3.7"

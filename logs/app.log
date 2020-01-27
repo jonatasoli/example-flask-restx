@@ -1,0 +1,116 @@
+------------------------------------------------
+INFO 27/01/2020 15:00:18 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:00:18] "GET / HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:00:18 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:00:18] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:00:18 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:00:18] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:00:18 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:00:18] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:00:18 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:00:18] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:00:18 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:00:18] "GET /swagger.json HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:00:18 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:00:18] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:00:50 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:00:50] "GET / HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:00:51 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:00:51] "GET /swagger.json HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:00:51 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:00:51] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:00:51 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:00:51] "GET / HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:00:51 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:00:51] "GET /swagger.json HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:00:51 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:00:51] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:01:55 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:01:55] "POST /example/todo HTTP/1.1" 404 -
+------------------------------------------------
+INFO 27/01/2020 15:02:23 _internal.py:122 | _log() werkzeug  * Detected change in '/home/jonatas/workspace/api-hair-user/app/resources/api_v1/endpoints.py', reloading
+------------------------------------------------
+INFO 27/01/2020 15:02:23 _internal.py:122 | _log() werkzeug  * Restarting with stat
+------------------------------------------------
+INFO 27/01/2020 15:02:25 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:02:25] "POST /example/todo HTTP/1.1" 500 -
+------------------------------------------------
+INFO 27/01/2020 15:03:54 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:03:54] "POST /example/todo HTTP/1.1" 404 -
+------------------------------------------------
+INFO 27/01/2020 15:04:08 _internal.py:122 | _log() werkzeug  * Detected change in '/home/jonatas/workspace/api-hair-user/app/domains/facade.py', reloading
+------------------------------------------------
+INFO 27/01/2020 15:04:08 _internal.py:122 | _log() werkzeug  * Restarting with stat
+------------------------------------------------
+INFO 27/01/2020 15:04:47 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:04:47] "POST /example/todo HTTP/1.1" 404 -
+------------------------------------------------
+INFO 27/01/2020 15:05:58 _internal.py:122 | _log() werkzeug  * Detected change in '/home/jonatas/workspace/api-hair-user/app/domains/facade.py', reloading
+------------------------------------------------
+INFO 27/01/2020 15:05:58 _internal.py:122 | _log() werkzeug  * Restarting with stat
+------------------------------------------------
+INFO 27/01/2020 15:06:29 _internal.py:122 | _log() werkzeug  * Detected change in '/home/jonatas/workspace/api-hair-user/app/domains/facade.py', reloading
+------------------------------------------------
+INFO 27/01/2020 15:06:29 _internal.py:122 | _log() werkzeug  * Restarting with stat
+------------------------------------------------
+INFO 27/01/2020 15:06:37 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:06:37] "POST /example/todo HTTP/1.1" 201 -
+------------------------------------------------
+INFO 27/01/2020 15:06:45 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:06:45] "GET /example/todo HTTP/1.1" 500 -
+------------------------------------------------
+INFO 27/01/2020 15:06:56 _internal.py:122 | _log() werkzeug  * Detected change in '/home/jonatas/workspace/api-hair-user/app/domains/facade.py', reloading
+------------------------------------------------
+INFO 27/01/2020 15:06:56 _internal.py:122 | _log() werkzeug  * Restarting with stat
+------------------------------------------------
+INFO 27/01/2020 15:07:04 _internal.py:122 | _log() werkzeug  * Detected change in '/home/jonatas/workspace/api-hair-user/app/resources/api_v1/endpoints.py', reloading
+------------------------------------------------
+INFO 27/01/2020 15:07:04 _internal.py:122 | _log() werkzeug  * Restarting with stat
+------------------------------------------------
+INFO 27/01/2020 15:07:28 _internal.py:122 | _log() werkzeug  * Detected change in '/home/jonatas/workspace/api-hair-user/app/domains/facade.py', reloading
+------------------------------------------------
+INFO 27/01/2020 15:07:28 _internal.py:122 | _log() werkzeug  * Restarting with stat
+------------------------------------------------
+INFO 27/01/2020 15:07:57 _internal.py:122 | _log() werkzeug  * Detected change in '/home/jonatas/workspace/api-hair-user/app/domains/facade.py', reloading
+------------------------------------------------
+INFO 27/01/2020 15:07:57 _internal.py:122 | _log() werkzeug  * Restarting with stat
+------------------------------------------------
+INFO 27/01/2020 15:08:09 _internal.py:122 | _log() werkzeug  * Detected change in '/home/jonatas/workspace/api-hair-user/app/domains/facade.py', reloading
+------------------------------------------------
+INFO 27/01/2020 15:08:09 _internal.py:122 | _log() werkzeug  * Restarting with stat
+------------------------------------------------
+INFO 27/01/2020 15:08:18 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:08:18] "GET /example/todo HTTP/1.1" 201 -
+------------------------------------------------
+INFO 27/01/2020 15:09:02 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:09:02] "PUT /example/2 HTTP/1.1" 201 -
+------------------------------------------------
+INFO 27/01/2020 15:09:26 _internal.py:122 | _log() werkzeug  * Detected change in '/home/jonatas/workspace/api-hair-user/app/domains/facade.py', reloading
+------------------------------------------------
+INFO 27/01/2020 15:09:26 _internal.py:122 | _log() werkzeug  * Restarting with stat
+------------------------------------------------
+INFO 27/01/2020 15:09:32 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:09:32] "GET /example/todo HTTP/1.1" 201 -
+------------------------------------------------
+INFO 27/01/2020 15:09:44 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:09:44] "GET /example/2 HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:09:46 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:09:46] "GET /example/1 HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:09:56 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:09:56] "DELETE /example/2 HTTP/1.1" 201 -
+------------------------------------------------
+INFO 27/01/2020 15:10:02 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:10:02] "GET /example/todo HTTP/1.1" 201 -
+------------------------------------------------
+INFO 27/01/2020 15:15:44 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:15:44] "GET / HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:15:44 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:15:44] "GET /swagger.json HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:15:44 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:15:44] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:18:28 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:18:28] "GET / HTTP/1.1" 404 -
+------------------------------------------------
+INFO 27/01/2020 15:18:29 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:18:29] "GET /favicon.ico HTTP/1.1" 404 -
+------------------------------------------------
+INFO 27/01/2020 18:23:18 _internal.py:122 | _log() werkzeug 172.21.0.1 - - [27/Jan/2020 18:23:18] "GET / HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 18:23:19 _internal.py:122 | _log() werkzeug 172.21.0.1 - - [27/Jan/2020 18:23:19] "GET /swagger.json HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 18:23:19 _internal.py:122 | _log() werkzeug 172.21.0.1 - - [27/Jan/2020 18:23:19] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:25:28 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:25:28] "GET / HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:25:29 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:25:29] "GET /swagger.json HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:25:29 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:25:29] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+------------------------------------------------
+INFO 27/01/2020 15:25:36 _internal.py:122 | _log() werkzeug 127.0.0.1 - - [27/Jan/2020 15:25:36] "GET /example/todo HTTP/1.1" 201 -

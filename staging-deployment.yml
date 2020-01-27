@@ -1,0 +1,34 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: api-test
+  namespace: staging
+  labels:
+    name: api-test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      version: "latest"
+      app: "api-test"
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  minReadySeconds: 60
+  template:
+    metadata:
+      annotations:
+        pod.beta.kubernetes.io/hostname: staging
+      labels:
+        version: "latest"
+        app: "api-test"
+    spec:
+      containers:
+        - name: partyou-api-test
+          image: gcr.io/partyou-1f358/partyou-api-test:latest
+          imagePullPolicy: Always
+          command: ["/tini", "--", "./start-app.sh"]
+          ports:
+            - containerPort: 5000
